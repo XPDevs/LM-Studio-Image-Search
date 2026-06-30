@@ -1,0 +1,22 @@
+{
+  "name": "image-search-mcp",
+  "version": "1.0.0",
+  "description": "MCP server by XPDevs that gives LLMs the ability to search the web for images and display them in LM Studio chat",
+  "author": "XPDevs",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "sharp": "^0.35.2",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/sharp": "^0.31.1",
+    "typescript": "^5.8.0"
+  }
+}
